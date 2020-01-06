@@ -8,7 +8,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App(){
-    
+    // var app = express()
+    // app.use(function(req, res, next) {
+    //   res.header("Access-Control-Allow-Origin", "*");
+    //   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+    //   next();
+    // });
     return (
       <div align="center" className="backGround">
         <nav>Some nav bar</nav>

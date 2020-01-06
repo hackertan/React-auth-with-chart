@@ -1,24 +1,24 @@
 
 
 class Auth {
-    constructor(){
+    constructor() {
         this.authenticated = false
     }
-    login(username, password, cb){
+    login(username, password, cb) {
         console.log(username, password)
-        if(1==1){
+        if (1 == 1) {
             this.authenticated = true
             console.log("true")
-        } else{
-            console.log("false")
+        } else {
+            console.log("false")    
         }
         cb()
     }
-    logout(cb){
+    logout(cb) {
         this.authenticated = false
         cb()
     }
-    isAuthenticated(){
+    isAuthenticated() {
         return this.authenticated
     }
 
